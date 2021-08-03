@@ -1,0 +1,11 @@
+query GetPeople {
+    allPeople {
+        people {
+            id
+            name
+            species {
+                name
+            }
+        }
+    }
+}

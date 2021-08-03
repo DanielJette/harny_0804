@@ -1,0 +1,17 @@
+{
+  "name": "SWAPI GraphQL Schema",
+  "schemaPath": "./app/src/main/graphql/schema.json",
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "https://swapi-graphql.netlify.app/.netlify/functions/index",
+        "headers": {
+          "user-agent": "JS GraphQL",
+          "x-os-version": "Android-0",
+          "x-client-version": "1.0"
+        },
+        "introspect": true
+      }
+    }
+  }
+}

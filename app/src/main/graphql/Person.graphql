@@ -1,0 +1,18 @@
+query GetPerson($id:ID!) {
+    person(id:$id) {
+        id
+        name
+        birthYear
+        hairColor
+        skinColor
+        height
+        mass
+        eyeColor
+        species {
+            id
+            name
+            language
+            classification
+        }
+    }
+}
